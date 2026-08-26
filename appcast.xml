@@ -4,28 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.7</title>
-            <pubDate>Wed, 26 Aug 2026 18:12:25 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.7</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <title>1.0.8</title>
+            <pubDate>Wed, 26 Aug 2026 18:32:51 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.8</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.7
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.8
 
-Correção focada no clique que não chegava aos resultados em alguns Macs (hover funcionava, clique não).
+Correção definitiva do clique que não chegava à paleta em Macs que passaram pelo primeiro acesso.
 
-- Garante que o clique chega ao card mesmo quando a cadeia de hit-test do sistema falha: o alvo passa a ser resolvido pela mesma geometria que já move o hover — comprovadamente funcional nos Macs afetados.
-- Impede que o retrato de transição entre favoritos e busca capture cliques destinados ao conteúdo real.
-- Reforça o hit-test das superfícies de vidro com um caminho independente da hierarquia interna do sistema, cobrindo variações do macOS 26.
-- Clique, clique direito (menu de favoritos), seleção com contorno accent e arraste passam pelo novo caminho.
+- Fecha de verdade a janela do primeiro acesso ao concluir o login. Antes ela permanecia viva e invisível no centro da tela, interceptando cliques destinados à busca — o hover funcionava, o clique não, e até o botão "Tentar novamente" falhava conforme a posição.
+- Garante o fechamento mesmo se a animação de saída for interrompida.
+- Garante que todo clique dentro do vidro da paleta pertence à paleta, cobrindo variações do macOS 26 em que a superfície ficava transparente para o sistema e o clique atravessava para o app de trás.
+- Registra no diagnóstico todas as janelas vivas do app ao abrir a busca, para nenhum caso desse tipo passar despercebido de novo.
 
 Quem já está no Hubble pode instalar esta versão por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.7/Hubble-1.0.7.dmg" length="4212731" type="application/octet-stream" sparkle:edSignature="7XmFEFWT1jDFB1qVbG/eJ6Sr0wO50C26+/e96AS1kT+5W4PXvBGSJsa3nTGrie8d9o9hqvlkLrkK51iTN2kFAA=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.8/Hubble-1.0.8.dmg" length="4213909" type="application/octet-stream" sparkle:edSignature="m/y60CnCzeGYiWc57W62pgT5O/nVCvMPxbcjPEJCqFU/EblErC9sy2C0LsfdVVtoT+PMXaiSrltoYQx20yHYBw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: O50+bTNL+g71J96CL7giyQqa4vxJdzh9LybQM87FoLCn8k0Pt6UOjmXz9AsLuBfoAyWMCL6POs0Te/7kydcwCQ==
-length: 2094
+edSignature: Vynm2tOlXLWti/zKEPMPsoR8HPpljGuT9Us/xB5ZIQPiz98Mt5lfdHzHRS0UwRjWB0BRT9AMBCmiUmhhWD7ZBw==
+length: 2197
 -->
