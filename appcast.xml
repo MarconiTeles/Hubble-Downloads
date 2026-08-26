@@ -4,29 +4,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Tue, 25 Aug 2026 16:35:09 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.1</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.2</title>
+            <pubDate>Wed, 26 Aug 2026 01:42:58 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.2</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.1
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.2
 
-Esta versão corrige o primeiro acesso em Macs novos e prepara as próximas atualizações dentro do próprio Hubble.
+Esta versão torna o primeiro uso mais claro, rápido e confiável, especialmente em Macs que ainda não possuem o acervo em cache.
 
-- O login do Google conclui assim que a conta é autenticada; a sincronização do acervo continua em segundo plano.
-- Se a janela do Google não retornar ao Hubble, o botão volta a funcionar e permite tentar novamente.
-- A janela correta do Hubble agora acompanha todo o fluxo seguro de autenticação.
-- Adiciona **Buscar Atualizações…** ao menu Hubble e ao ícone da barra de menus.
-- As próximas versões serão verificadas automaticamente e instaladas pelo atualizador assinado do Hubble.
+- Mostra o progresso real enquanto o Hubble lê e organiza o Google Drive.
+- Substitui a antiga espera silenciosa por uma cena orbital animada do sistema Oráculo, Webb e Hubble.
+- Mantém a busca indisponível até o acervo estar pronto, evitando que a digitação escape para outro aplicativo.
+- Exibe os resultados antes de todas as miniaturas terminarem e entrega cada prévia assim que fica disponível.
+- Reaproveita os links de miniatura persistidos no índice e aumenta o paralelismo do primeiro carregamento.
+- Corrige seleção por clique, contorno de destaque, prévia com Espaço e arrastar arquivos ainda não materializados.
+- Mantém a galeria como visualização inicial e volta a recolher a paleta ao clicar fora.
+- Recolhe o body quando uma busca não encontra materiais, sem abrir uma tela vazia separada.
 
-Quem está na versão 1.0.0 precisa instalar esta versão manualmente uma única vez. A atualização dentro do app passa a funcionar a partir da 1.0.1.
+Quem já está no Hubble 1.0.1 pode instalar esta versão por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.1/Hubble-1.0.1.dmg" length="4008391" type="application/octet-stream" sparkle:edSignature="1LKfCYk+kmtu0e4PqyDaKgL7kLr7Bn5idTBl5cx8lQLASRmJCXDl4OpSG8T53dN8dsYjvMeAOl4zhqKgcg9WDA=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.2/Hubble-1.0.2.dmg" length="4074171" type="application/octet-stream" sparkle:edSignature="uv1QCoXlCpX8DV/B6eF6cCScEcZb4U/FD7nww5WHLOXFp4IRIO/TT09YgBk0QzxmTDtZlca6kRK5HWmuoTxBAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mFL7Ue2cbSMBlAmQqH6esPvhdMMGF8tBhK+WGKP+yxyw7+AhK73DE8DMtY6bED6N6GpMqu+/RJ372cHqZlpzCg==
-length: 2089
+edSignature: +2Xnn/CYRJ7ed6diniHGBDznwIuRnWjO+kX0I5r3FSvH0byMFpVDaEgIGW5BeDuvh9Br74eOjk5zNvgsh0qsAw==
+length: 2376
 -->
