@@ -4,32 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 26 Aug 2026 01:42:58 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.2</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Wed, 26 Aug 2026 10:49:28 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.3</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.2
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.3
 
-Esta versão torna o primeiro uso mais claro, rápido e confiável, especialmente em Macs que ainda não possuem o acervo em cache.
+Esta versão torna a primeira sincronização mais rápida, inequívoca e segura antes de liberar a busca.
 
-- Mostra o progresso real enquanto o Hubble lê e organiza o Google Drive.
-- Substitui a antiga espera silenciosa por uma cena orbital animada do sistema Oráculo, Webb e Hubble.
-- Mantém a busca indisponível até o acervo estar pronto, evitando que a digitação escape para outro aplicativo.
-- Exibe os resultados antes de todas as miniaturas terminarem e entrega cada prévia assim que fica disponível.
-- Reaproveita os links de miniatura persistidos no índice e aumenta o paralelismo do primeiro carregamento.
-- Corrige seleção por clique, contorno de destaque, prévia com Espaço e arrastar arquivos ainda não materializados.
-- Mantém a galeria como visualização inicial e volta a recolher a paleta ao clicar fora.
-- Recolhe o body quando uma busca não encontra materiais, sem abrir uma tela vazia separada.
+- Impede qualquer pesquisa antes de o inventário atual do Google Drive estar completamente pronto, mesmo quando existe um índice antigo no Mac.
+- Mantém a tela de sincronização visível ao trocar de aplicativo e mostra progresso determinado, monotônico e baseado nas pastas realmente percorridas.
+- Consulta as pastas do Drive em lotes paralelos para reduzir significativamente o tempo do primeiro carregamento.
+- Preserva o estado de sincronização enquanto miniaturas e arquivos são preparados, sem aparentar conclusão antecipada.
+- Mantém a tela de login aberta quando o Hubble perde o foco.
+- Corrige o modo lista para que todas as linhas continuem ocupando a largura inteira após reordenações e mudanças de estado.
 
-Quem já está no Hubble 1.0.1 pode instalar esta versão por **Hubble > Buscar Atualizações…**.
+Quem já está no Hubble pode instalar esta versão por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.2/Hubble-1.0.2.dmg" length="4074171" type="application/octet-stream" sparkle:edSignature="uv1QCoXlCpX8DV/B6eF6cCScEcZb4U/FD7nww5WHLOXFp4IRIO/TT09YgBk0QzxmTDtZlca6kRK5HWmuoTxBAg=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.3/Hubble-1.0.3.dmg" length="4090362" type="application/octet-stream" sparkle:edSignature="2NP4Xht2LPh52wqCqgQbJ/6QXoLWR7VBycD8EXqE7lX5IPkwM9g/w6fk+XDfEh3K9Hr6kB9JQhygQH7kwzD+Dw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +2Xnn/CYRJ7ed6diniHGBDznwIuRnWjO+kX0I5r3FSvH0byMFpVDaEgIGW5BeDuvh9Br74eOjk5zNvgsh0qsAw==
-length: 2376
+edSignature: A/l4jLobqVeh5mVYBj6BPchOtXao+3irlashp8jsd+3IN/paUTR2vJj//2peQ66oFipGrNnE6m3QGlGqsc56CQ==
+length: 2254
 -->
