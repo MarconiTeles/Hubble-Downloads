@@ -4,31 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Wed, 26 Aug 2026 12:04:23 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.4</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Wed, 26 Aug 2026 15:12:22 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.5</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.4
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.5
 
-Esta versão separa de forma definitiva a primeira sincronização das atualizações silenciosas do acervo e restaura a interação confiável com o mouse.
+Esta versão adiciona favoritos ao fluxo principal do Hubble e consolida as correções de interação validadas no macOS 26.
 
-- Exibe a cena completa de sincronização somente quando ainda não existe um índice local utilizável.
-- Mantém buscas e resultados disponíveis durante atualizações posteriores, indicando o trabalho com uma faixa de progresso discreta dentro da barra de busca.
-- Recolhe imediatamente o body quando a busca não encontra materiais, sem abrir tela vazia ou estado de “nenhum resultado”.
-- Corrige seleção, pré-visualização e início do arraste pelo primeiro clique do mouse, preservando o contorno accent do item selecionado.
-- Remove a cena de sincronização do seletor de acervo e evita reaberturas indevidas durante a troca de pasta.
-- Refina a faixa de progresso com halo neon e esvaecimento vertical e na ponta do percurso.
-- Atualiza o ícone do Hubble para a nova arte em preto e laranja.
+- Adiciona favoritos locais separados por acervo, preservados entre sessões e ordenados pelos itens marcados mais recentemente.
+- Permite adicionar ou remover um material dos favoritos pelo menu de contexto e identifica os itens marcados com uma estrela.
+- Abre a galeria de favoritos ao chamar o Hubble sem uma busca; ao digitar, passa para os resultados e, ao limpar o campo, restaura os favoritos.
+- Ajusta a altura do body à quantidade de favoritos e mantém a preferência pessoal de visualização em lista ou galeria para as buscas.
+- Refina o morph entre a barra compacta e o body, eliminando saltos, reconstruções recursivas e novas animações causadas por miniaturas que chegam atrasadas.
+- Reforça clique, seleção, pré-visualização, arraste, foco e recolhimento da janela no macOS 26 sem interferir na digitação.
+- Faz o login voltar com segurança para “Tentar novamente” caso o navegador não retorne ao Hubble dentro do prazo.
 
 Quem já está no Hubble pode instalar esta versão por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.4/Hubble-1.0.4.dmg" length="4135236" type="application/octet-stream" sparkle:edSignature="k7j9ngzHkbQO0hKTB85nT2ilGdsWyumUKTtETs0DajghTyBXN50pa8eoocT8+6BfqV9diMFAdRMGhEDHNx4+Dw=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.5/Hubble-1.0.5.dmg" length="4171485" type="application/octet-stream" sparkle:edSignature="ozw0KbWRyDLtmc6WRakrncH3yeUf+vIEhMqcEeZZNo2ehywjFJximbV2/AGL6LT8+mCWeZmzs/m4WF/vu5xpAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DvEF6Hskcq3zb63jD9cVJIpFqA2q4GJEXuPixACf48mD+EnuvCW9+ZxVOvv8lS2/Q4SFk2xOTNxnPLNMB7gCDA==
-length: 2382
+edSignature: ygCTFvTS83y5B1JZVmC2JaXCnzzVeBrQUWUPEDPVeEN4hKW5ReqF6LjRZ148twKpn7+K7rOUJ0zQxRvdAMIcDQ==
+length: 2497
 -->
