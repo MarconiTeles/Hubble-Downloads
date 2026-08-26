@@ -4,31 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.5</title>
-            <pubDate>Wed, 26 Aug 2026 15:12:22 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.5</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>1.0.6</title>
+            <pubDate>Wed, 26 Aug 2026 16:56:55 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.6</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.5
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.6
 
-Esta versão adiciona favoritos ao fluxo principal do Hubble e consolida as correções de interação validadas no macOS 26.
+Esta versão torna a primeira sincronização do acervo resiliente a instabilidades de rede e do Google Drive, e corrige os problemas relatados nas versões 1.0.4 e 1.0.5 em Macs externos.
 
-- Adiciona favoritos locais separados por acervo, preservados entre sessões e ordenados pelos itens marcados mais recentemente.
-- Permite adicionar ou remover um material dos favoritos pelo menu de contexto e identifica os itens marcados com uma estrela.
-- Abre a galeria de favoritos ao chamar o Hubble sem uma busca; ao digitar, passa para os resultados e, ao limpar o campo, restaura os favoritos.
-- Ajusta a altura do body à quantidade de favoritos e mantém a preferência pessoal de visualização em lista ou galeria para as buscas.
-- Refina o morph entre a barra compacta e o body, eliminando saltos, reconstruções recursivas e novas animações causadas por miniaturas que chegam atrasadas.
-- Reforça clique, seleção, pré-visualização, arraste, foco e recolhimento da janela no macOS 26 sem interferir na digitação.
-- Faz o login voltar com segurança para “Tentar novamente” caso o navegador não retorne ao Hubble dentro do prazo.
+- Refaz automaticamente as consultas ao Drive em quedas de rede, timeouts e limites temporários do Google, com espera progressiva — uma oscilação de Wi-Fi não aborta mais o inventário inteiro.
+- Aguarda a conectividade voltar em vez de falhar imediatamente quando a internet cai no meio da primeira sincronização.
+- Explica falhas de acesso em linguagem clara, mostrando o motivo oficial do Google e a conta conectada, em vez de um erro técnico truncado.
+- Adiciona o botão “Tentar novamente” dentro da própria tela de erro e “Entrar com Google” na tela de login.
+- Mantém a barra de pesquisa totalmente oculta até o acervo terminar de carregar, inclusive na tela de erro — antes ela reaparecia e sugeria uma busca que ainda não existia.
+- Impede que a janela desapareça ao clicar ou perder o foco durante o login, a primeira sincronização ou um erro; só a busca já pronta recolhe ao clicar fora.
+- Registra diagnósticos detalhados de rede e de cliques para acelerar o suporte a problemas específicos de cada Mac.
 
 Quem já está no Hubble pode instalar esta versão por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.5/Hubble-1.0.5.dmg" length="4171485" type="application/octet-stream" sparkle:edSignature="ozw0KbWRyDLtmc6WRakrncH3yeUf+vIEhMqcEeZZNo2ehywjFJximbV2/AGL6LT8+mCWeZmzs/m4WF/vu5xpAA=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.6/Hubble-1.0.6.dmg" length="4208463" type="application/octet-stream" sparkle:edSignature="1eEPoJy7M2LAkkvkGATw0ZjhNEY/m22tv8z2sc6WDEF3rcbqx/rCjwe5HHwrQrgKom/kTDgb9+eyl0bN5M49BA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ygCTFvTS83y5B1JZVmC2JaXCnzzVeBrQUWUPEDPVeEN4hKW5ReqF6LjRZ148twKpn7+K7rOUJ0zQxRvdAMIcDQ==
-length: 2497
+edSignature: DHwGibIR+tvFqCKNMvWXbG4hIxH4xLsE0OrY3jWPxXiN8xIh+9mnDMe/86ftOebb2EOhwV1+DXPAVQcw6E2ACA==
+length: 2648
 -->
