@@ -4,28 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.8</title>
-            <pubDate>Wed, 26 Aug 2026 18:32:51 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.8</link>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <title>1.0.9</title>
+            <pubDate>Wed, 26 Aug 2026 18:45:12 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.9</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.8
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.9
 
-Correção definitiva do clique que não chegava à paleta em Macs que passaram pelo primeiro acesso.
+Correção do login que ficava sem acesso ao Drive quando a permissão não era marcada na tela do Google.
 
-- Fecha de verdade a janela do primeiro acesso ao concluir o login. Antes ela permanecia viva e invisível no centro da tela, interceptando cliques destinados à busca — o hover funcionava, o clique não, e até o botão "Tentar novamente" falhava conforme a posição.
-- Garante o fechamento mesmo se a animação de saída for interrompida.
-- Garante que todo clique dentro do vidro da paleta pertence à paleta, cobrindo variações do macOS 26 em que a superfície ficava transparente para o sistema e o clique atravessava para o app de trás.
-- Registra no diagnóstico todas as janelas vivas do app ao abrir a busca, para nenhum caso desse tipo passar despercebido de novo.
+- Detecta no próprio login quando a permissão do Google Drive não foi concedida e explica na hora como corrigir, em vez de salvar uma sessão que falha em toda sincronização com "erro de permissão".
+- A tela do Google volta a exibir as caixas de permissão a cada login, permitindo corrigir uma autorização incompleta feita antes.
+- O erro de sincronização agora distingue "login sem autorização do Drive" (ação: Entrar com Google) de "conta sem acesso à pasta" (ação: pedir acesso ao administrador).
+- A conta conectada aparece por inteiro na tela de erro.
 
-Quem já está no Hubble pode instalar esta versão por **Hubble > Buscar Atualizações…**.
+Quem já vê o erro de acesso deve atualizar por **Hubble > Buscar Atualizações…**, clicar em **Entrar com Google** e marcar a permissão "Ver e baixar todos os arquivos do Google Drive".
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.8/Hubble-1.0.8.dmg" length="4213909" type="application/octet-stream" sparkle:edSignature="m/y60CnCzeGYiWc57W62pgT5O/nVCvMPxbcjPEJCqFU/EblErC9sy2C0LsfdVVtoT+PMXaiSrltoYQx20yHYBw=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.9/Hubble-1.0.9.dmg" length="4215611" type="application/octet-stream" sparkle:edSignature="R7LNaWFyP8to1G5nlrYwN/JfyJeEEVMj2MfnpZc+Cn8Kie99a2QZLGnM91rVynQHnq0j2dynA4///NpvwSk5BA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Vynm2tOlXLWti/zKEPMPsoR8HPpljGuT9Us/xB5ZIQPiz98Mt5lfdHzHRS0UwRjWB0BRT9AMBCmiUmhhWD7ZBw==
-length: 2197
+edSignature: u4peag0weQzITgx+36G1eEX1zNteZT7vefqKzcY4fR4NcGhT9FwLenYXE9KQV0aZswP/tHE+HSIQS/5MFawrDg==
+length: 2193
 -->
