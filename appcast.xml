@@ -4,27 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hubble</title>
         <item>
-            <title>1.0.10</title>
-            <pubDate>Wed, 26 Aug 2026 19:27:27 -0300</pubDate>
-            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.0.10</link>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <title>1.1.1</title>
+            <pubDate>Thu, 27 Aug 2026 14:02:55 -0300</pubDate>
+            <link>https://github.com/MarconiTeles/Hubble-Downloads/releases/tag/v1.1.1</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Hubble 1.0.10
+            <description sparkle:format="markdown"><![CDATA[# Hubble 1.1.1
 
-Busca nunca mais é tomada pela tela de processo.
+Correção das capas dos letterings.
 
-- Resultados aparecem imediatamente ao digitar, também na galeria: os cards nascem com placeholder e as capas completam em seguida, com a grade se ajustando sem piscar.
-- Elimina o corpo escuro de "alinhando sinais" que tomava a janela por vários segundos ao pesquisar itens cujas capas ainda não estavam baixadas.
-- A tela cheia de processo volta a pertencer exclusivamente à primeira sincronização do acervo; atualizações em segundo plano seguem na faixa discreta da barra.
+- Vídeos de lettering voltam a ser representados pelo frame central, mesmo quando o original ainda não foi baixado: o frame é extraído por leitura parcial do arquivo no Drive, sem baixar o vídeo inteiro.
+- Antes, esses cards adotavam a miniatura do Google Drive — que é o primeiro frame e, nesses vídeos, é preto — e a tratavam como definitiva, deixando o card preto até alguém passar o mouse por cima.
+- Vale também para letterings já baixados, cuja capa preta não era substituída.
+- Inclui as correções da 1.0.10: busca instantânea sem tela de processo, clique confiável e primeira sincronização resiliente.
 
-Atualize por **Hubble > Buscar Atualizações…**.
+Instale por **Hubble > Buscar Atualizações…**.
 ]]></description>
-            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.0.10/Hubble-1.0.10.dmg" length="4214039" type="application/octet-stream" sparkle:edSignature="cq0zS4/ZtfAlbD3r62Ib3bGGYiQtFjmVHrGo93oaoGMQ+lq+N1kPOuQ1aTSTB5SixZQX84mIjve8n5+V2gXVBg=="></enclosure>
+            <enclosure url="https://github.com/MarconiTeles/Hubble-Downloads/releases/download/v1.1.1/Hubble-1.1.1.dmg" length="4214153" type="application/octet-stream" sparkle:edSignature="npOvseZL3Ik+LE8InXyEgC1IrgEua8jl5ncXLggobagJavWj+6V+a0EVEliG0jUWjzjpyBmQYhOdZvNRWQqyBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: lCh3cR3oX3Y4Q/kQa2gGT4q2huC0yVQxWu4obkloxwU9vYuSpUKJveAvz+yRJ16+1jRsErM5AWNTNtIH4ipnBQ==
-length: 1911
+edSignature: nXVIMopTpDrAXGQ4i0Bb5pBm4NxmJXyeX0QdgnpNWAKgHjhvSVBH3XJd2T8r6hftWbYDP7agKJvO5CKWhd9eBg==
+length: 2041
 -->
